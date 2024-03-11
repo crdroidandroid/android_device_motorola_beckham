@@ -7,13 +7,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/beckham/device.mk)
 
 # Device identifiers
-BUILD_FINGERPRINT := motorola/beckham/beckham:9/PPWS29.131-27-1-15/4d8b92:user/release-keys
-PRODUCT_BRAND := motorola
+PRODUCT_BRAND := Motorola
 PRODUCT_DEVICE := beckham
-PRODUCT_MANUFACTURER := motorola
+PRODUCT_MANUFACTURER := Motorola
 PRODUCT_MODEL := Moto Z3 Play
 PRODUCT_NAME := lineage_beckham
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=beckham \
-    PRIVATE_BUILD_DESC="beckham-user 9 PPWS29.131-27-1-15 4d8b92 release-keys"
+    PRODUCT_NAME=beckham
